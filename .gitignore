@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Personal career data for the career-coach skill
+skills/career-coach/private/

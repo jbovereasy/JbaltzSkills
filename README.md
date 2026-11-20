@@ -7,6 +7,7 @@ A collection of [Agent Skills](https://docs.claude.com/en/docs/claude-code/skill
 | Skill | What it does |
 |-------|--------------|
 | [stock-ticker-analysis](skills/stock-ticker-analysis/SKILL.md) | Analyzes a stock ticker and writes a Markdown or JSON report in four sections: technical indicators, fundamentals from SEC EDGAR, benchmarking against the market, a sector ETF and peers, and anomaly detection. Informational only, not investment advice. |
+| [career-coach](skills/career-coach/SKILL.md) | A career coach that works from your own work history. It rewrites resume and LinkedIn sections, tailors them to a job posting, finds skill gaps for a target role, drafts cover letters, and runs mock interviews. Your history lives in a gitignored `private/profile.md`. See [references/README.md](skills/career-coach/references/README.md). |
 | [example-skill](skills/example-skill/SKILL.md) | A template to copy when creating a new skill. Not meant to be used directly. |
 
 ## Installation
