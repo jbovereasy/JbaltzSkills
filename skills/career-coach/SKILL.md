@@ -35,13 +35,16 @@ Use this skill when the user:
 ```
 private/
   profile.md     # work history (source of truth)
-  resume.*       # the user's original resume / LinkedIn export, if they keep one here
+  resume/        # the user's original resume(s) and LinkedIn "Save to PDF" export
+  <other>/       # extra source material the user adds (e.g. past performance reviews, project notes)
   jobs/          # job postings being targeted, one file per posting: <company>-<role>.md
   drafts/        # generated output: tailored resumes, cover letters, LinkedIn text
   interviews/    # mock-interview notes and prepared STAR stories
 ```
 
 - Create subfolders as you first need them.
+- `profile.md` is the summary you work from. When it lacks detail for a task (e.g. a behavioral interview or a detailed job application), read the relevant source files it lists in its header comment.
+- `[CONFIRM]` markers in `profile.md` are unresolved facts. Don't use a `[CONFIRM]` item in output; ask about it first, then update the profile.
 - When the user pastes a job posting they're actively pursuing, offer to save it to `private/jobs/` so later sessions can reuse it.
 - Save deliverables to `private/drafts/` with dated names (e.g. `2026-11-20-acme-staff-eng-cover-letter.md`) when the user wants to keep them. Never write them anywhere else in the repo.
 
